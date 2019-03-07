@@ -66,6 +66,7 @@ public class IsTablet extends CordovaPlugin {
 	                    || metrics.densityDpi == DisplayMetrics.DENSITY_MEDIUM
 	                    || metrics.densityDpi == DisplayMetrics.DENSITY_TV
 			    || metrics.densityDpi == DisplayMetrics.DENSITY_XHIGH
+			    || metrics.densityDpi == DisplayMetrics.DENSITY_360
 	                    || metrics.densityDpi == DisplayMetrics.DENSITY_XXHIGH) {
 	                Log.d(LOG_TAG, "Is Tablet Device");
 	                return true;
